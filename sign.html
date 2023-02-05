@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрция</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <form action="action_page.php">
+        <div class="container">
+          <h1>Регистрация</h1>
+          <p>Заполните поля для того что бы создать аккаунт.</p>
+          <hr>
+      
+          <label for="email"><b>Почта</b></label>
+          <input type="text" placeholder="Введите почту" name="email" required>
+      
+          <label for="psw"><b>Пароль</b></label>
+          <input type="password" placeholder="Введите пароль" name="psw" required>
+      
+          <label for="psw-repeat"><b>Повторите пароль</b></label>
+          <input type="password" placeholder="Повторите пароль" name="psw-repeat" required>
+          <hr>
+          <button type="submit" class="registerbtn">Регистрация</button>
+        </div>
+      
+        <div class="container signin">
+          <p>У вас уже есть аккаунт? <a href="#">Вход</a>.</p>
+        </div>
+      </form>
+</body>
+</html>
